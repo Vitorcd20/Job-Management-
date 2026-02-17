@@ -1,4 +1,4 @@
-package com.vitorcd20.job_management.modules.candidate.controllers;
+package com.vitorcd20.job_management.controllers;
 
 
 import com.vitorcd20.job_management.modules.candidate.CandidateEntity;

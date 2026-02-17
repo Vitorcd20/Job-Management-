@@ -13,7 +13,7 @@ public class CandidateEntity {
     private UUID id;
     private String Name;
 
-    @Pattern(regexp = "^(?!\\s*$).+", message = "The [username] field must not contain a space")
+    @Pattern(regexp = "\\S+", message = "The [username] field must not contain a space")
     private String username;
     @Email(message = "The [email] field must contain a valid email")
     private String email;
