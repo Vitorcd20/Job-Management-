@@ -1,6 +1,6 @@
 package com.vitorcd20.job_management.repository;
 
-import com.vitorcd20.job_management.modules.candidate.CandidateEntity;
+import com.vitorcd20.job_management.entity.CandidateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
